@@ -12,7 +12,7 @@ if (process.argv.length != 5) {
 	//    for (let i=0; i< w.length; i++){
 	//	console.log(w[i]);
 	//    }
-	const buff= await witnessCalculator.calculateWTNSBin(input,0);
+	const buff= await witnessCalculator.calculateBinWitness(input,0);
 	writeFile(process.argv[4], buff, function(err) {
 	    if (err) throw err;
 	});
