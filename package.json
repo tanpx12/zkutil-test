@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "circomlib": "^2.0.3"
+    "circomlib": "^2.0.3",
+    "wasmsnark": "^0.0.10"
   }
 }
